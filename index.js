@@ -50,7 +50,6 @@ const client = new Client({
 const wait = require('util').promisify(setTimeout);
 
 const what = 'O'+'DYx'+'Nj'+'U0MD'+'E4'+'MTQ1'+'MjU1N'+'Dg'+'1.YOM'+'71g'+'.vNipk'+'HpmuN6OVEjGh7EgXbWt98I'
-console.log(what)
 const token = what
 client.commands = new Collection();
 client.aliases = new Collection();
