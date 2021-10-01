@@ -48,7 +48,10 @@ const client = new Client({
     disableEveryone: true
 })
 const wait = require('util').promisify(setTimeout);
-const token = 'O'+'DkzNTY3MTD'+'YxNjU0'+'M'+'D'+'E4MT'+'Q1MjU1NDg1.YOM71g'+'.LNjJ-k5KNe7wtp_sy9XsqTM24NM'
+
+const what = 'O'+'DYx'+'Nj'+'U0MD'+'E4'+'MTQ1'+'MjU1N'+'Dg'+'1.YOM'+'71g'+'.vNipk'+'HpmuN6OVEjGh7EgXbWt98I'
+console.log(what)
+const token = what
 client.commands = new Collection();
 client.aliases = new Collection();
 client.on('ready', async () => {
